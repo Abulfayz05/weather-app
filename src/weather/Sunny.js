@@ -6,7 +6,7 @@ import Request from "./Request";
 export default function Sunny() {
   const API = "fa4217aa51cc4e3497c92751222305";
   const [searchResults, setSearchResults] = useState("Toshkent");
-  const url = `http://api.weatherapi.com/v1/current.json?key=${API}&q=${searchResults}&aqi=no`;
+  const url = `https://api.weatherapi.com/v1/current.json?key=${API}&q=${searchResults}&aqi=no`;
   const { data } = Request(url);
 
   return (
