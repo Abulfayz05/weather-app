@@ -1,0 +1,134 @@
+.container {
+  height: 100vh;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.konvert {
+  background-color: red;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.convert{
+  margin-top: 200px;
+  display: inline-block;
+  
+  
+}
+
+.currency {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 1000px;
+height: 300px;
+
+}
+
+
+
+.input {
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 12px;
+  width: 200px;
+}
+
+.select {
+  margin-left: 10px;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: #04aa6d;
+  color: white;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.users {
+  display: inline-block;
+}
+.avatar {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: #282c34 1px solid;
+}
+
+
+
+.avatar h3 {
+  margin-left: 15px;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 50px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}

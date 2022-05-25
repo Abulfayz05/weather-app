@@ -1,0 +1,86 @@
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-image: url(../../public/Sunny.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Rubik", sans-serif;
+}
+
+.bulutli {
+  background-color: rgb(8, 235, 178);
+}
+
+.background-blue {
+  background-color: blue;
+}
+
+.card {
+  padding: 3rem;
+  width: 100%;
+  max-width: 1200px;
+  background: linear-gradient(
+    252.44deg,
+    rgba(239, 255, 253, 0.7) 0%,
+    rgba(239, 255, 253, 0) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 85px;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search button {
+  margin-left: -50px;
+  z-index: 2;
+  background-color: transparent;
+  border: none;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  outline: none;
+  background: linear-gradient(
+    269.42deg,
+    #f2fbff -1.71%,
+    rgba(242, 251, 255, 0.3) 100%
+  );
+  padding: 13px;
+  opacity: 0.5;
+  border-radius: 18px;
+  font-size: 15px;
+}
+
+.weather {
+  margin-top: 50px;
+}
+
+.card h2 {
+  margin: 0px;
+  font-size: 46px;
+  font-weight: 400;
+  color: #f2fbff;
+  line-height: 54px;
+}
+
+.desc {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.desc h3 {
+  font-size: 34px;
+  font-weight: 400;
+  color: #f2fbff;
+  margin: 0;
+  line-height: 40px;
+}
