@@ -28,7 +28,7 @@ export default function Sunny() {
               <h2>{data.current.temp_c}°C </h2>
               <h2>
                 {data.current.condition.text}{" "}
-                <img src={data.current.condition.icon} />
+                <img src={data.current.condition.icon} alt='condition' />
               </h2>
               <div className="desc">
                 <h3>Namlik: {data.current.humidity} %</h3>
